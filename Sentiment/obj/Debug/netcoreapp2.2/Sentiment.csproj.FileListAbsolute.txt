@@ -1,0 +1,14 @@
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\bin\Debug\netcoreapp2.2\Sentiment.deps.json
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\bin\Debug\netcoreapp2.2\Sentiment.runtimeconfig.json
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\bin\Debug\netcoreapp2.2\Sentiment.runtimeconfig.dev.json
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\bin\Debug\netcoreapp2.2\Sentiment.dll
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\bin\Debug\netcoreapp2.2\Sentiment.pdb
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.csprojAssemblyReference.cache
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.csproj.CoreCompileInputs.cache
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.RazorAssemblyInfo.cache
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.RazorAssemblyInfo.cs
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.AssemblyInfoInputs.cache
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.AssemblyInfo.cs
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.RazorTargetAssemblyInfo.cache
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.dll
+C:\Users\kprice\source\repos\SentimentVS\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.pdb
