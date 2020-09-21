@@ -26,3 +26,8 @@ C:\Users\kprice\source\repos\Sentiment\Sentiment\obj\Debug\netcoreapp2.2\Sentime
 C:\Users\kprice\source\repos\Sentiment\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.RazorTargetAssemblyInfo.cache
 C:\Users\kprice\source\repos\Sentiment\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.dll
 C:\Users\kprice\source\repos\Sentiment\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.pdb
+C:\Users\kprice\source\repos\Sentiment\Sentiment\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\kprice\source\repos\Sentiment\Sentiment\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\kprice\source\repos\Sentiment\Sentiment\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\kprice\source\repos\Sentiment\Sentiment\obj\Debug\netcoreapp2.2\Sentiment.genruntimeconfig.cache
+C:\Users\kprice\source\repos\Sentiment\Sentiment\bin\Debug\netcoreapp2.2\package-lock.json

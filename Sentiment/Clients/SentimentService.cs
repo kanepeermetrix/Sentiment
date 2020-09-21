@@ -13,13 +13,13 @@ namespace Sentiment.Clients
 {
     public class SentimentService
     {
-        private HttpClient HttpClient { get; set; }
+        private HttpClient _httpClient { get; set; }
         public SentimentService(HttpClient httpClient)
         {
             httpClient.BaseAddress = new Uri("https://eastus.api.cognitive.microsoft.com");
             httpClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "aceb48dbf78243fb9800176b47b0d057");
             httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-            HttpClient = httpClient;
+            _httpClient = httpClient;
         }
 
         public async Task<string> SendToAzure(DocumentList documentList)
@@ -28,7 +28,7 @@ namespace Sentiment.Clients
             {
                 Content = new StringContent(JsonConvert.SerializeObject(documentList), Encoding.UTF8, MediaTypeNames.Application.Json)
             };
-            var response = await HttpClient.SendAsync(request);
+            var response = await _httpClient.SendAsync(request);
             var responseContent = await response.Content.ReadAsStringAsync();
 
             return responseContent;

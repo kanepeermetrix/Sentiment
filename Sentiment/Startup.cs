@@ -29,6 +29,8 @@ namespace Sentiment
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddHttpClient<SentimentService>();
             services.AddHttpContextAccessor();
+            services.AddScoped<ILineWriter, LineWriter>();
+            services.AddScoped<IGhostWriter, GhostWriter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

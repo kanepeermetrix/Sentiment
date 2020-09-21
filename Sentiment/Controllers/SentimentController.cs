@@ -14,16 +14,26 @@ namespace Sentiment.Controllers
     public class SentimentController : ControllerBase
     {
         private readonly SentimentService _sentimentService;
+        private readonly ILineWriter _lineWriter;
 
-        public SentimentController(SentimentService sentimentService)
+        public SentimentController(SentimentService sentimentService, ILineWriter lineWriter)
         {
             _sentimentService = sentimentService;
+            _lineWriter = lineWriter;
+
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] DocumentList documentList)
         {
             var response = await _sentimentService.SendToAzure(documentList);
+            return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var response = _lineWriter.GetGhost();
             return Ok(response);
         }
     }
